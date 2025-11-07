@@ -2,7 +2,7 @@
 /* Date: September 2025 */
 /* Author: Website Design Team */
 
-/* sets the default rem size for an entire page (for all sizing to be relative to) */
+
 html {
   font-size: 1rem;
   scroll-behavior: smooth;
@@ -11,12 +11,12 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif !important;
-  background-color: #f0f0f0; /* light grey background */
+  background-color: #f0f0f0; 
   margin: 0 auto;
   padding: 0;
 }
 
-/* Landing page - Start */
+
 .bg-image {
   background-image: url('../img/chicago-booth-construction.jpg');
   background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 
 .overlay {
-  background: rgba(0,0,0,0.2); /* lighter overlay for readability */
+  background: rgba(0,0,0,0.2); 
   position: fixed;
   top: 0;
   left: 0;
@@ -42,12 +42,12 @@ body {
 .landing-content {
   position: relative;
   z-index: 1;
-  color: #000000; /* CHANGED to black for homepage text */
+  color: #000000; 
   text-align: center;
   top: 40vh;
 }
 
-/* Ensure all text inside the home section is black */
+
 .home h1,
 .home h2,
 .home h3,
@@ -60,14 +60,14 @@ body {
   color: #000000 !important;
 }
 
-/* === Change homepage first heading (h1) to WHITE === */
+
 .home h1 {
   color: #ffffff !important;
 }
 
-/* NAVBAR - Start */
+
 .navbar {
-  background: #e0e0e0; /* lighter top HUD */
+  background: #e0e0e0;
 }
 
 .nav-link, .navbar-brand {
@@ -98,13 +98,13 @@ body {
 }
 
 .navbar-toggler {
-  background: #cccccc !important; /* lighter toggle button */
+  background: #cccccc !important; 
   border: 0;
   color: #000000;
 }
 
 .collapse .navbar-collapse .navbar-toggler-icon {
-  background: #999999 !important; /* make icon visible */
+  background: #999999 !important; 
   border: 0;
   color: #000000;
 }
@@ -114,11 +114,11 @@ a.active {
   border-radius: 100px;
 }
 
-/* ELEMENT STYLES - Start */
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
-  color: #007BFF; /* changed from yellow to readable blue */
+  color: #007BFF; 
 }
 
 h1 {
@@ -154,7 +154,7 @@ p.intro {
   text-align: left;
 }
 
-/* SEMANTIC STYLES - Start */
+
 header {
   background-image: url(../img/chicago-booth-construction.jpg);
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ header {
   margin: 20px 0;
 }
 
-/* HERO SOCIAL MEDIA - Start */
+
 a.headsocial i {
   color: #000000;
 }
@@ -183,13 +183,13 @@ a.headsocial:hover i {
   color: #000000;
 }
 
-/* STANDOUT TEXT - Start */
+
 span.standout {
   color: #000000;
   font-weight: 700;
 }
 
-/* FOOTER SOCIAL MEDIA - Start */
+
 a.footsocial i {
   color: #000000;
 }
@@ -198,7 +198,7 @@ a.footsocial:hover i {
   color: #000000;
 }
 
-/* Progress bars style for Skill Level */
+
 .progress {
   height: 50px;
   margin: 20px;
@@ -216,12 +216,12 @@ a.footsocial:hover i {
   background-color: #6a5acd;
 }
 
-/* CARD MEMBERSHIP - Start */
+
 .card {
   border: 5px solid #000000 !important;
 }
 
-/* Button CSS */
+
 button {
   border: 1px solid #000000;
   background: #b0b0b0;
@@ -250,10 +250,10 @@ a i:hover {
   border-radius: 100px;
 }
 
-/* Typewriter Effect */
+
 .home {
   margin-bottom: 0;
-  background: #e0e0e0; /* lighter background for hero section */
+  background: #e0e0e0; 
   height: 750px;
   align-items: center;
 }
@@ -268,20 +268,20 @@ a i:hover {
   display: inline-block;
 }
 
-/* ====== PORTFOLIO & CONTACT PAGE COLORS ====== */
+
 .portfolio,
 .contact {
-  background-color: #ffffff !important; /* CHANGED from yellow to white */
+  background-color: #ffffff !important; 
   color: #000000;
 }
 
-/* Keep portfolio and contact headings BLACK */
+
 .portfolio h1, .portfolio h2, .portfolio h3,
 .contact h1, .contact h2, .contact h3 {
-  color: #000000; /* unchanged */
+  color: #000000; 
 }
 
-/* MEDIA QUERIES - Start */
+
 @media (max-width: 575.98px) {
   p {
     color: #000000;
@@ -323,3 +323,4 @@ a i:hover {
     color: #000000;
   }
 }
+

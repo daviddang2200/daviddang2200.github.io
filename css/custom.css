@@ -118,7 +118,7 @@ a.active {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
-  color: #3a7bd5; /* blue headings */
+  color: #FFD700; /* changed to readable yellow */
 }
 
 h1 {
@@ -275,9 +275,10 @@ a i:hover {
   color: #000000;
 }
 
+/* Keep portfolio and contact headings BLACK */
 .portfolio h1, .portfolio h2, .portfolio h3,
 .contact h1, .contact h2, .contact h3 {
-  color: #000000;
+  color: #000000; /* unchanged */
 }
 
 /* MEDIA QUERIES - Start */

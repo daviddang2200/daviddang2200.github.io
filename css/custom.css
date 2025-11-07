@@ -1,4 +1,4 @@
-/* Custom CSS for Bootstrap 5 Bart Simpson template designed for INFO1005 Website Design - 2025 */
+/* Custom CSS for Bootstrap 5 David Dang template designed for INFO1005 Website Design - 2025 */
 /* Date: September 2025 */
 /* Author: Website Design Team */
 
@@ -42,9 +42,22 @@ body {
 .landing-content {
   position: relative;
   z-index: 1;
-  color: #000000;
+  color: #ffffff; /* CHANGED to white for homepage text */
   text-align: center;
   top: 40vh;
+}
+
+/* Ensure all text inside the home section is white */
+.home h1,
+.home h2,
+.home h3,
+.home h4,
+.home h5,
+.home h6,
+.home p,
+.home span,
+.home a {
+  color: #ffffff !important;
 }
 
 /* NAVBAR - Start */
@@ -292,5 +305,3 @@ a i:hover {
     color: #000000;
   }
 }
-
-

@@ -263,6 +263,18 @@ a i:hover {
   display: inline-block;
 }
 
+/* ====== PORTFOLIO & CONTACT PAGE COLORS ====== */
+.portfolio,
+.contact {
+  background-color: #ffffff !important; /* CHANGED from yellow to white */
+  color: #000000;
+}
+
+.portfolio h1, .portfolio h2, .portfolio h3,
+.contact h1, .contact h2, .contact h3 {
+  color: #000000;
+}
+
 /* MEDIA QUERIES - Start */
 @media (max-width: 575.98px) {
   p {

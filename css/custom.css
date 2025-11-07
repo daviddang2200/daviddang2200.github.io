@@ -118,7 +118,7 @@ a.active {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
-  color: #FFD700; /* changed to readable yellow */
+  color: #007BFF; /* changed from yellow to readable blue */
 }
 
 h1 {

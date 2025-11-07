@@ -18,7 +18,7 @@ body {
 
 /* Landing page - Start */
 .bg-image {
-  background-image: url('../img/bartbackground.jpg');
+  background-image: url('../img/chicago-booth-construction.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -292,3 +292,4 @@ a i:hover {
     color: #000000;
   }
 }
+

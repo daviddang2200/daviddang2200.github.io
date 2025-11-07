@@ -42,12 +42,12 @@ body {
 .landing-content {
   position: relative;
   z-index: 1;
-  color: #ffffff; /* CHANGED to white for homepage text */
+  color: #000000; /* CHANGED to black for homepage text */
   text-align: center;
   top: 40vh;
 }
 
-/* Ensure all text inside the home section is white */
+/* Ensure all text inside the home section is black */
 .home h1,
 .home h2,
 .home h3,
@@ -57,7 +57,7 @@ body {
 .home p,
 .home span,
 .home a {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 /* NAVBAR - Start */

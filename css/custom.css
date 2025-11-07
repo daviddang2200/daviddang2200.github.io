@@ -60,6 +60,11 @@ body {
   color: #000000 !important;
 }
 
+/* === Change homepage first heading (h1) to WHITE === */
+.home h1 {
+  color: #ffffff !important;
+}
+
 /* NAVBAR - Start */
 .navbar {
   background: #e0e0e0; /* lighter top HUD */
@@ -82,7 +87,7 @@ body {
 }
 
 .navbar-brand:hover {
-  background: #dcdcdc;
+  background: #FFFFFF;
   padding: 5px;
   border-radius: 100px;
 }

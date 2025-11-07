@@ -18,7 +18,7 @@ body {
 
 /* Landing page - Start */
 .bg-image {
-  background-image: url('../img/construction.jpg');
+  background-image: url('../img/bartbackground.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -100,7 +100,7 @@ a.active {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
-  color: #ff7f7f; /* light red headings */
+  color: #3a7bd5; /* blue headings */
 }
 
 h1 {
@@ -138,7 +138,7 @@ p.intro {
 
 /* SEMANTIC STYLES - Start */
 header {
-  background-image: url(../img/construction.jpg);
+  background-image: url(../img/bartbackground.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -292,5 +292,3 @@ a i:hover {
     color: #000000;
   }
 }
-
-
